@@ -1,24 +1,50 @@
 import { createFileRoute } from "@tanstack/react-router";
 
-// No head() here: the home route inherits title/description/og/twitter from
-// __root.tsx, and ships no og:image so serve-time hosting can inject the
-// project's social preview (explicit og:image or latest screenshot).
+import { FloatingCall, TopBar, UrgencyBar } from "@/components/artraid/Chrome";
+import { Hero } from "@/components/artraid/Hero";
+import { RootCause, Traps } from "@/components/artraid/Traps";
+import { HowItWorks, Result } from "@/components/artraid/HowItWorks";
+import { Guarantee, Proof } from "@/components/artraid/Proof";
+import { LeadForm, SiteFooter } from "@/components/artraid/LeadForm";
+
+const title = "АРТРЕЙД — повязка от тяжести и отёков в ногах";
+const description =
+  "Медицинская повязка АРТРЕЙД возвращает инфракрасное тепло тела к сосудам голени: снимает ночной венозный застой, тяжесть, отёки и судороги. РЗН 2024/24297.";
+
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title },
+      { name: "description", content: description },
+      { property: "og:title", content: title },
+      { property: "og:description", content: description },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+  }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
+    <>
+      <UrgencyBar />
+      <TopBar />
+      <main>
+        <h1 className="sr-only">
+          Повязка АРТРЕЙД против тяжести, отёков и ночных судорог в ногах
+        </h1>
+        <Hero />
+        <Traps />
+        <RootCause />
+        <HowItWorks />
+        <Result />
+        <Proof />
+        <Guarantee />
+        <LeadForm />
+      </main>
+      <SiteFooter />
+      <FloatingCall />
+    </>
   );
 }
