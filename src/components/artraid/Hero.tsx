@@ -12,11 +12,17 @@ export function Hero() {
             Ловушка привычных решений
           </p>
           <h1 className="mt-4 text-balance text-3xl font-extrabold leading-[1.1] text-primary-foreground sm:text-4xl lg:text-5xl">
-            Капустный лист, мази и пиявки не убирают тяжесть в ногах. Это делает медицинская физика.
+            Когда болят и отекают ноги, в ход идёт всё подряд
           </h1>
           <p className="mt-5 max-w-xl text-base leading-relaxed text-primary-foreground/80 sm:text-lg">
-            Повязка АРТРЕЙД возвращает тепло вашего тела к ногам — кровь начинает двигаться
-            активнее, ночной застой в венах уходит, а с ним — тяжесть, отёки и судороги.
+            Капуста. Мази. Даже пиявки.
+          </p>
+          <p className="mt-3 max-w-xl text-base leading-relaxed text-primary-foreground/80 sm:text-lg">
+            Но если тяжесть, отёчность и гудение возвращаются снова — может быть, пора попробовать
+            другой подход?
+          </p>
+          <p className="mt-5 max-w-xl text-base leading-relaxed text-primary-foreground/80 sm:text-lg">
+            АРТРЕЙД использует тепло самого тела — то, которое организм создаёт каждую секунду.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-3">
@@ -48,7 +54,7 @@ export function Hero() {
               preload="metadata"
             />
             <p className="px-4 py-3 text-[13px] text-primary-foreground/70">
-              2 минуты: почему народные средства не работают
+              2 минуты о том, почему привычные способы не решают проблему
             </p>
           </div>
         </div>
