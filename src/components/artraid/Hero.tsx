@@ -1,6 +1,5 @@
 import { ShieldCheck, Sparkles } from "lucide-react";
 
-import productWear from "@/assets/product-wear.png.asset.json";
 import video from "@/assets/artraid-video.mp4.asset.json";
 import { Watchers } from "./Chrome";
 
