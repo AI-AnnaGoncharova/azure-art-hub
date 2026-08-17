@@ -5,17 +5,17 @@ const steps = [
   {
     n: "01",
     title: "Тело излучает тепло",
-    text: "Голень постоянно отдаёт инфракрасное тепло в окружающий воздух — оно теряется бесполезно.",
+    text: "Это происходит постоянно — даже когда вы просто отдыхаете.",
   },
   {
     n: "02",
-    title: "Микросферы отражают",
-    text: "Слой полых стеклянных микросфер и диоксида кремния работает как зеркало для ИК-излучения.",
+    title: "Материал АРТРЕЙД взаимодействует с тепловым излучением",
+    text: "Внутри слоя с микросферами оно многократно рассеивается.",
   },
   {
     n: "03",
-    title: "Тепло возвращается к сосудам",
-    text: "Сосуды расширяются, кровоток ускоряется, застой уходит — тяжесть и судороги отступают.",
+    title: "Часть теплового потока возвращается к поверхности тела",
+    text: "И всё это — за счёт тепла, которое организм уже создаёт сам.",
   },
 ];
 
@@ -24,11 +24,23 @@ export function HowItWorks() {
     <section className="bg-brand-deep py-16 text-primary-foreground lg:py-24">
       <div className="mx-auto max-w-6xl px-5">
         <p className="text-xs font-bold uppercase tracking-[0.18em] text-brand-soft">
-          Механизм действия
+          Есть другой вариант
         </p>
         <h2 className="mt-3 max-w-3xl text-2xl font-extrabold leading-tight sm:text-3xl lg:text-4xl">
-          Повязка не греет извне. Она возвращает ваше собственное тепло внутрь
+          АРТРЕЙД работает с теплом вашего собственного тела
         </h2>
+        <p className="mt-4 max-w-2xl text-base leading-relaxed text-primary-foreground/80">
+          Не надо ничего нагревать.
+        </p>
+        <p className="mt-2 max-w-2xl text-base leading-relaxed text-primary-foreground/80">
+          Не надо ничего наносить.
+        </p>
+        <p className="mt-2 max-w-2xl text-base leading-relaxed text-primary-foreground/80">
+          Не надо устраивать дома очередную процедуру.
+        </p>
+        <p className="mt-2 max-w-2xl text-base leading-relaxed text-primary-foreground/80">
+          Надели повязку — и отдыхаете.
+        </p>
 
         <div className="mt-10 overflow-hidden rounded-[28px] border border-primary-foreground/15 bg-primary-foreground/5 p-4 sm:p-8">
           <img
@@ -38,6 +50,23 @@ export function HowItWorks() {
             className="mx-auto w-full max-w-3xl"
           />
         </div>
+
+        <p className="mt-10 text-xs font-bold uppercase tracking-[0.18em] text-brand-soft">
+          Как работает АРТРЕЙД
+        </p>
+        <h3 className="mt-3 max-w-3xl text-2xl font-extrabold leading-tight sm:text-3xl">
+          Использует тепло, которое ваше тело создаёт само
+        </h3>
+        <p className="mt-4 max-w-2xl text-base leading-relaxed text-primary-foreground/80">
+          Организм постоянно излучает тепло в инфракрасном диапазоне.
+        </p>
+        <p className="mt-2 max-w-2xl text-base leading-relaxed text-primary-foreground/80">
+          Внутри АРТРЕЙД находится функциональный наполнитель на основе полых стеклянных микросфер и
+          диоксида кремния.
+        </p>
+        <p className="mt-2 max-w-2xl text-base leading-relaxed text-primary-foreground/80">
+          Его свойства исследовались на физическом факультете МГУ.
+        </p>
 
         <div className="mt-10 grid gap-5 md:grid-cols-3">
           {steps.map((s) => (
