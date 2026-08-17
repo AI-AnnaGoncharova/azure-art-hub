@@ -1,6 +1,5 @@
 import { ShieldCheck, Sparkles } from "lucide-react";
 
-import productWear from "@/assets/product-wear.png.asset.json";
 import video from "@/assets/artraid-video.mp4.asset.json";
 import { Watchers } from "./Chrome";
 
@@ -41,15 +40,7 @@ export function Hero() {
         </div>
 
         <div className="relative">
-          <div className="overflow-hidden rounded-[28px] border border-primary-foreground/15 bg-primary-foreground/5 shadow-lift">
-            <img
-              src={productWear.url}
-              alt="Женщина с повязкой АРТРЕЙД на голени отдыхает на диване"
-              className="aspect-4/5 w-full object-cover"
-              loading="eager"
-            />
-          </div>
-          <div className="mt-4 overflow-hidden rounded-2xl border border-primary-foreground/15 bg-brand-deep/40">
+          <div className="overflow-hidden rounded-2xl border border-primary-foreground/15 bg-brand-deep/40 shadow-lift">
             <video
               className="aspect-video w-full"
               src={video.url}
