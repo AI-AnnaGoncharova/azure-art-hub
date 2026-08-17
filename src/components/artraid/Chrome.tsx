@@ -20,9 +20,6 @@ export function TopBar() {
     <div className="sticky top-0 z-40 border-b border-border/70 bg-background/85 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-3">
         <span className="font-extrabold tracking-[0.28em] text-brand-deep">АРТРЕЙД</span>
-        <span className="hidden text-xs text-muted-foreground sm:inline">
-          Официальное медицинское изделие · РЗН 2024/24297
-        </span>
         <a
           href={PHONE_HREF}
           className="inline-flex items-center gap-2 rounded-full border border-brand-soft bg-ice px-3.5 py-1.5 text-sm font-semibold text-brand-deep transition-colors hover:bg-accent"
