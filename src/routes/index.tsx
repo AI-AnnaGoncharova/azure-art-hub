@@ -31,9 +31,6 @@ function Index() {
       <UrgencyBar />
       <TopBar />
       <main>
-        <h1 className="sr-only">
-          Повязка АРТРЕЙД против тяжести, отёков и ночных судорог в ногах
-        </h1>
         <Hero />
         <Traps />
         <RootCause />
