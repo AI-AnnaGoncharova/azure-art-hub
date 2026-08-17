@@ -28,7 +28,7 @@ export function TopBar() {
           className="inline-flex items-center gap-2 rounded-full border border-brand-soft bg-ice px-3.5 py-1.5 text-sm font-semibold text-brand-deep transition-colors hover:bg-accent"
         >
           <Phone className="size-4" aria-hidden="true" />
-          <span className="hidden xs:inline">{PHONE}</span>
+          <span className="hidden sm:inline">{PHONE}</span>
         </a>
       </div>
     </div>
