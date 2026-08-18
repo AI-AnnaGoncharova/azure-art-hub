@@ -75,17 +75,17 @@ export function Guarantee() {
   return (
     <section className="bg-brand-deep py-16 text-primary-foreground">
       <div className="mx-auto max-w-3xl px-5 text-center">
-        <p className="text-xs font-bold uppercase tracking-[0.18em] text-brand-soft">
-          Полная финансовая безопасность
+        <h2 className="text-2xl font-extrabold leading-tight sm:text-3xl">«А если не поможет?»</h2>
+        <p className="mt-3 text-base font-semibold text-primary-foreground/90">
+          14 дней, чтобы проверить АРТРЕЙД на себе.
         </p>
-        <h2 className="mt-3 text-2xl font-extrabold leading-tight sm:text-3xl">
-          «А если не поможет? Я попробую назад вернуть!»
-        </h2>
         <p className="mt-4 text-base leading-relaxed text-primary-foreground/75">
-          Мы знаем, сколько бесполезных кремов и таблеток вы уже купили. Поэтому мы берём весь риск
-          на себя. Попробуйте АРТРЕЙД в течение 14 дней. Если облегчения не будет, тяжесть не уйдёт,
-          а судороги продолжат беспокоить — наш генеральный директор гарантирует возврат 100%
+          Попробуйте АРТРЕЙД в течение 14 дней. Если облегчения не будет, тяжесть не уйдёт, а
+          судороги продолжат беспокоить — генеральный директор компании гарантирует возврат 100%
           стоимости изделия без лишних вопросов.
+        </p>
+        <p className="mt-5 text-base font-bold text-primary-foreground">
+          Риск берём на себя. Решение остаётся за вами.
         </p>
         <p className="mt-8 text-[13px] text-primary-foreground/60">
           Акционная цена действует ещё:
