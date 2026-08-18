@@ -11,11 +11,14 @@ export function LeadForm() {
       <div className="mx-auto max-w-2xl px-5">
         <div className="rounded-[28px] border border-border bg-card p-6 shadow-lift sm:p-9">
           <h2 className="text-2xl font-extrabold leading-tight text-brand-deep sm:text-3xl">
-            Освободите ноги от тяжести уже завтра утром
+            Хватит пробовать всё подряд
           </h2>
+          <p className="mt-3 text-base font-semibold text-brand-deep">
+            Узнайте, подойдёт ли АРТРЕЙД вам.
+          </p>
           <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-            Запишитесь на бесплатную консультацию специалиста. Разберём вашу ситуацию, поможем
-            подобрать размер и комплектацию, назовём точную стоимость и расскажем о быстрой доставке.
+            Оставьте номер телефона. Специалист расскажет, как устроено изделие, поможет подобрать
+            подходящий вариант и ответит на вопросы.
           </p>
 
           <div className="mt-6 inline-flex items-center gap-2 rounded-full bg-ice px-4 py-2 text-[13px] font-semibold text-brand-deep">
@@ -25,7 +28,7 @@ export function LeadForm() {
 
           <div className="mt-4 rounded-2xl border-l-4 border-brand bg-secondary px-4 py-3 text-sm text-brand-deep">
             <strong>Специальное предложение сегодня:</strong> бесплатная консультация + скидка 15% на
-            первое изделие при заполнении формы.
+            первое изделие.
           </div>
 
           {sent ? (

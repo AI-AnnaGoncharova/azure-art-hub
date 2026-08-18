@@ -5,18 +5,18 @@ import { Countdown } from "./Chrome";
 const proofs = [
   {
     icon: FileCheck2,
-    title: "Официальное медицинское изделие",
-    text: "Регистрационное удостоверение Росздравнадзора № РЗН 2024/24297. Продукт официально признан эффективным для улучшения циркуляции крови и борьбы с венозным застоем в РФ.",
+    title: "Регистрационное удостоверение Росздравнадзора",
+    text: "№ РЗН 2024/24297. АРТРЕЙД зарегистрирован как медицинское изделие.",
   },
   {
     icon: Microscope,
-    title: "Исследовано на физфаке МГУ",
-    text: "Оптические свойства наполнителя — полых микросфер и диоксида кремния — изучены физиками МГУ, подтвердившими эффект обратного рассеяния тепла.",
+    title: "Исследования физического факультета МГУ",
+    text: "Исследовались свойства функционального наполнителя и его взаимодействие с инфракрасным излучением.",
   },
   {
     icon: Award,
-    title: "Патент на изобретение № 2624381",
-    text: "Официально защищённая российская медицинская технология, а также свидетельство на товарный знак ARTRAID и ноу-хау.",
+    title: "Патент РФ № 2624381",
+    text: "Техническое решение защищено патентом Российской Федерации.",
   },
 ];
 
@@ -24,12 +24,14 @@ export function Proof() {
   return (
     <section className="gradient-soft py-16 lg:py-24">
       <div className="mx-auto max-w-6xl px-5">
-        <p className="kicker">Научный фундамент и госрегистрация</p>
-        <h2 className="mt-3 max-w-3xl text-2xl font-extrabold leading-tight text-brand-deep sm:text-3xl">
-          «А у вас сертификат есть, где посмотреть?»
+        <h2 className="max-w-3xl text-2xl font-extrabold leading-tight text-brand-deep sm:text-3xl">
+          «А это вообще медицинское изделие?»
         </h2>
+        <p className="mt-3 max-w-2xl text-base font-semibold text-brand-deep">
+          Да. И документы можно посмотреть.
+        </p>
         <p className="mt-4 max-w-2xl text-base text-muted-foreground">
-          Мы дорожим репутацией и предлагаем только официально проверенные решения:
+          Не верьте рекламе на слово. Посмотрите документы сами.
         </p>
 
         <div className="mt-10 grid gap-6 md:grid-cols-3">
@@ -73,17 +75,17 @@ export function Guarantee() {
   return (
     <section className="bg-brand-deep py-16 text-primary-foreground">
       <div className="mx-auto max-w-3xl px-5 text-center">
-        <p className="text-xs font-bold uppercase tracking-[0.18em] text-brand-soft">
-          Полная финансовая безопасность
+        <h2 className="text-2xl font-extrabold leading-tight sm:text-3xl">«А если не поможет?»</h2>
+        <p className="mt-3 text-base font-semibold text-primary-foreground/90">
+          14 дней, чтобы проверить АРТРЕЙД на себе.
         </p>
-        <h2 className="mt-3 text-2xl font-extrabold leading-tight sm:text-3xl">
-          «А если не поможет? Я попробую назад вернуть!»
-        </h2>
         <p className="mt-4 text-base leading-relaxed text-primary-foreground/75">
-          Мы знаем, сколько бесполезных кремов и таблеток вы уже купили. Поэтому мы берём весь риск
-          на себя. Попробуйте АРТРЕЙД в течение 14 дней. Если облегчения не будет, тяжесть не уйдёт,
-          а судороги продолжат беспокоить — наш генеральный директор гарантирует возврат 100%
+          Попробуйте АРТРЕЙД в течение 14 дней. Если облегчения не будет, тяжесть не уйдёт, а
+          судороги продолжат беспокоить — генеральный директор компании гарантирует возврат 100%
           стоимости изделия без лишних вопросов.
+        </p>
+        <p className="mt-5 text-base font-bold text-primary-foreground">
+          Риск берём на себя. Решение остаётся за вами.
         </p>
         <p className="mt-8 text-[13px] text-primary-foreground/60">
           Акционная цена действует ещё:
