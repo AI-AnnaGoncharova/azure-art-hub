@@ -90,19 +90,25 @@ export function Result() {
     <section className="py-16 lg:py-24">
       <div className="mx-auto grid max-w-6xl items-center gap-12 px-5 lg:grid-cols-[0.95fr_1.05fr]">
         <div>
-          <p className="kicker">Результат</p>
-          <h2 className="mt-3 text-2xl font-extrabold leading-tight text-brand-deep sm:text-3xl">
-            Надели вечером — встали утром на легких ногах
+          <h2 className="text-2xl font-extrabold leading-tight text-brand-deep sm:text-3xl">
+            Надели — и можно просто отдыхать
           </h2>
           <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-            АРТРЕЙД надевается на голень на время сна или отдыха. Никаких таблеток, запаха мазей и
-            неудобных процедур: мягкая повязка, которая работает ровно тогда, когда организм
-            беззащитен перед застоем.
+            АРТРЕЙД легко встроить в обычную жизнь.
+          </p>
+          <p className="mt-3 text-base leading-relaxed text-muted-foreground">
+            Сидите на диване. Читаете. Смотрите телевизор. Спите.
+          </p>
+          <p className="mt-3 text-base leading-relaxed text-muted-foreground">
+            А повязка в это время работает с собственным тепловым излучением вашего тела.
+          </p>
+          <p className="mt-3 text-base leading-relaxed text-muted-foreground">
+            Без липких мазей. Без сложных процедур. Без домашней лаборатории из капусты и пиявок.
           </p>
           <dl className="mt-8 grid gap-4 sm:grid-cols-3">
             {[
               ["14 дней", "гарантия возврата"],
-              ["8 часов", "работы за ночь"],
+              ["Несколько минут", "чтобы надеть повязку"],
               ["№ 2624381", "патент РФ"],
             ].map(([big, small]) => (
               <div key={big} className="rounded-2xl border border-border bg-card p-4 shadow-card">
